@@ -1,6 +1,6 @@
 {
   "name": "codemirror-dlx",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "DLX Assembler mode and styles for CodeMirror",
   "main": "mode/dlx.js",
   "scripts": {
@@ -22,5 +22,5 @@
   "bugs": {
     "url": "https://github.com/franciscohanna92/codemirror-dlx/issues"
   },
-  "homepage": "https://github.com/franciscohanna92/codemirror-dlx#readme"
+  "homepage": "https://franciscohanna.me/codemirror-dlx"
 }

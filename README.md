@@ -14,21 +14,24 @@ npm install codemirror-dlx --save
 1. Include mode and style into your project.
 
     ```html
-    <link href="node_modules/codemirror-dlx/theme/dlx.css">
+    <link href="node_modules/codemirror-dlx/theme/dlx-dark.css">
     <script src="node_modules/codemirror-dlx/mode/dlx.js"></script>
     ```
 
     or
 
     ```js
-    import 'codemirror-dlx/theme/dlx.css'
-    import 'codemirror-dlx/mode/dlx.js'
+    import 'codemirror-dlx/theme/dlx-dark.css'
+    import 'codemirror-dlx/mode/dlx'
     ```
 
-1. Set 'elixir' as the mode when creating the CodeMirror editor.
+2. Set 'dlx' as the mode and choose your theme when creating the CodeMirror editor.
 
     ```js
-    CodeMirror.fromTextArea(document.getElementById('your-textarea-id'), { mode: 'dlx' })
+    CodeMirror.fromTextArea(document.getElementById('your-textarea-id'), { 
+        mode: 'dlx',
+        theme: 'dlx-dark'
+    })
     ```
 
 ## About
