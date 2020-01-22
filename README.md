@@ -3,11 +3,11 @@ A CodeMirror mode for the DLX Assembly language
 
 ### [Live Demo](https://franciscohanna.me/codemirror-dlx/)
 
-## Installation
+<!-- ## Installation
 
 ```console
 npm install codemirror-dlx --save
-```
+``` -->
 
 ## Usage
 
