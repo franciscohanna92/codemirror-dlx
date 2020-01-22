@@ -1,7 +1,7 @@
 # codemirror-dlx
 A CodeMirror mode for the DLX Assembly language
 
-### [Live Demo]()
+### [Live Demo](https://franciscohanna.me/codemirror-dlx/)
 
 ## Installation
 
