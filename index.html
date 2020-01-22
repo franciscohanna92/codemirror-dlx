@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>codemirror-dlx</title>
+    <meta charset="utf-8">
+    <meta name="description" content="A DLX-Assembler Interpreter written in JavaScript to aid myself doing homework.">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/litera/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-pLgJ8jZ4aoPja/9zBSujjzs7QbkTKvKw1+zfKuumQF9U+TH3xv09UUsRI52fS+A6" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.min.css"
+        integrity="sha256-vZ3SaLOjnKO/gGvcUWegySoDU6ff33CS5i9ot8J9Czk=" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/hint/show-hint.min.css"
+        integrity="sha256-Ng5EdzHS/CC37tR7tE75e4Th9+fBvOB4eYITOkXS22Q=" crossorigin="anonymous" />
+
+    <!-- Custom -->
+    <link rel="stylesheet" href="./theme/dlx-light.css">
+    <link rel="stylesheet" href="./theme/dlx-dark.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.min.js"
+        integrity="sha256-dPTL2a+npIonoK5i0Tyes0txCMUWZBf8cfKRfACRotc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/selection/active-line.min.js"
+        integrity="sha256-NmQoARC11zW6JtOWBzNWj7w213KCK25Hl3PRPOTF2UA=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/hint/show-hint.min.js"
+        integrity="sha256-P946oK/OkcGC8rs/phAXZRvTADKK0V+x23Jbl0DilgQ=" crossorigin="anonymous"></script>
+
+    <script src="./mode/dlx.js"></script>
+    <script src="./mode/dlx-hint.js"></script>
+    <script defer src="./demo.js"></script>
+</head>
+
+<body class="bg-light">
+    <main role="main">
+        <section class="mt-5 p-5 text-center">
+            <div class="container">
+                <h1>codemirror-dlx</h1>
+                <p class="lead text-muted">A CodeMirror mode for the DLX Assembly language</p>
+                <p>
+                    <a href="https://github.com/franciscohanna92/codemirror-dlx" target="_blank" rel="noopener"
+                        class="btn btn-primary my-2">View on Github</a>
+                </p>
+            </div>
+        </section>
+
+        <div class="py-5 bg-dark">
+            <div class="container">
+                <div class="card">
+                    <div class="card-header">
+                        <code>theme: dlx-light</code>
+                    </div>
+                    <div class="card-body p-0">
+                        <textarea id="editor2"></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-header">
+                        <code>theme: dlx-dark</code>
+                    </div>
+                    <div class="card-body p-0">
+                        <textarea id="editor1"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>

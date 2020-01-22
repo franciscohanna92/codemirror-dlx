@@ -1,0 +1,26 @@
+{
+  "name": "codemirror-dlx",
+  "version": "1.0.0",
+  "description": "DLX Assembler mode and styles for CodeMirror",
+  "main": "mode/dlx.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscohanna92/codemirror-dlx.git"
+  },
+  "keywords": [
+    "codemirror",
+    "dlx",
+    "assembler",
+    "mode",
+    "styles"
+  ],
+  "author": "Francisco Hanna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/franciscohanna92/codemirror-dlx/issues"
+  },
+  "homepage": "https://github.com/franciscohanna92/codemirror-dlx#readme"
+}
